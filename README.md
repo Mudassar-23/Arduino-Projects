@@ -1,14 +1,14 @@
-Arduino UNO Project
+Arduino UNO Projects
 
 => Automatic Street Light
 
-We use LDR (Light Dependent Resistor) Sensor with Arduino so that we can detect intensity of light. Based on this we can turn on/off bulb automatically if surrounding is dark or bright.
+ We use LDR (Light Dependent Resistor) Sensor with Arduino so that we can detect intensity of light. Based on this we can turn on/off bulb automatically if surrounding is dark or bright.
 
 
 
 => Simple Security System
 
-Use a PIR sensor to detect motion and trigger an alarm or LED.
+ Use a PIR sensor to detect motion and trigger an alarm or LED.
 
 
 => Weather Monitor
