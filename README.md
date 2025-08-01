@@ -43,4 +43,12 @@ Upload the provided Arduino code using the Arduino IDE.
 ```bash
   https://www.arduino.cc/en/software/
 ```
-    
+
+---
+## How to Run the Project
+
+1. Clone the repository to your local machine:
+
+```bash
+ git clone https://github.com/Mudassar-23/Arduino-Projects.git
+```
