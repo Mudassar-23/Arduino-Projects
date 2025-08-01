@@ -1,20 +1,46 @@
-Arduino UNO Projects
-
-=> Automatic Street Light
-
- We use LDR (Light Dependent Resistor) Sensor with Arduino so that we can detect intensity of light. Based on this we can turn on/off bulb automatically if surrounding is dark or bright.
+# Arduino UNO Projects 🚀
 
 
+##  Projects Included
 
-=> Simple Security System
+### 1. 🌙 Automatic Street Light
 
- Use a PIR sensor to detect motion and trigger an alarm or LED.
+**Description:**
+An automatic lighting system using an **LDR (Light Dependent Resistor)** to detect ambient light levels. If the environment becomes dark, the system turns on a bulb (or LED); when it's bright, it turns it off automatically.
+
+---
+
+### 2. 🔐 Simple Security System
+
+**Description:**
+A motion-based security system using a **PIR (Passive Infrared)** sensor. It detects motion and triggers an alarm or turns on an LED as an alert.
+
+---
+
+### 3. 🌡️ Weather Monitor
+
+**Description:**
+Monitor **temperature and humidity** using a **DHT11** sensor and display the readings on the **Serial Monitor** or an **LCD display**.
+
+**Working:**
+- The DHT11 sensor reads temperature and humidity.
+- Values are displayed on the Serial Monitor or LCD using the `DHT.h` and `LiquidCrystal.h` libraries.
+
+---
+
+### 4. 📡 Radar System with Arduino
+
+**Description:**
+A basic radar simulation using a **servo motor** and **HC-SR04 ultrasonic sensor**. The system scans the surroundings by rotating the sensor and visualizes detected objects on a **radar-like interface** using the **Processing IDE**.
 
 
-=> Weather Monitor
+---
+## Installation
 
- Use an DHT11 sensor to read temperature and humidity.
+### Arduino:
+Upload the provided Arduino code using the Arduino IDE.
 
- Display on the Serial Monitor ond LCD.
-
-
+```bash
+  https://www.arduino.cc/en/software/
+```
+    
